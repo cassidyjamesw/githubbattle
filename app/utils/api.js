@@ -3,6 +3,7 @@ var axios = require("axios");
 var id = "YOUR_CLIENT_ID";
 var sec = "YOUR_SECRET_ID";
 var params = "?client_id=" + id + "&client_secret=" + sec;
+// Not planning on having this get spammed enough for this to matter
 
 function getProfile(username) {
   return axios
